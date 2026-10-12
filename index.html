@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONYX — Bathroom Design & Renovation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="hero">
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="#projects">Bathrooms</a>
+        <a href="#projects">Renovations</a>
+        <a href="#projects">Portfolio</a>
+      </div>
+
+      <div class="logo">
+        ONYX
+        <small>BATHROOMS</small>
+      </div>
+
+      <div class="nav-right">
+        <a href="#process">Process</a>
+        <a href="#studio">Studio</a>
+        <a class="gold-btn" href="#contact">Book a consultation</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="eyebrow">Chicago · Bathroom Design and Renovation Plumbing</div>
+
+      <h1>
+        The room you stand in first thing, done properly once.
+      </h1>
+
+      <p class="hero-copy">
+        Design, first fix, second fix and the trades in between, run by one
+        studio so nobody hands the problem to somebody else.
+      </p>
+
+      <a class="gold-btn" href="#contact">Book a consultation</a>
+    </div>
+  </section>
+
+  <section class="cookie" id="cookie">
+    <span>
+      We use cookies to enhance your experience. By continuing to visit this
+      site you agree to our use of cookies.
+    </span>
+
+    <div class="cookie-actions">
+      <button onclick="closeCookie()">Decline</button>
+      <button class="accept" onclick="closeCookie()">Accept All</button>
+    </div>
+  </section>
+
+  <main class="projects" id="projects">
+    <h2>Three rooms</h2>
+
+    <p class="projects-intro">
+      Sample projects for template demonstration. Add one YAML file per project
+      in src/content/portfolio/.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <img src="./images/1.jpg" alt="Bathroom project">
+      </article>
+
+      <article class="card">
+        <img src="./images/2.jpg" alt="Modern shower room">
+      </article>
+
+      <article class="card">
+        <img src="./images/3.jpg" alt="Bright interior project">
+      </article>
+    </div>
+  </main>
+
+  <section id="process"></section>
+  <section id="studio"></section>
+  <section id="contact"></section>
+
+  <script>
+    function closeCookie() {
+      document.getElementById("cookie").style.display = "none";
+    }
+  </script>
+
+</body>
+</html>
